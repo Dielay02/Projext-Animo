@@ -40,20 +40,14 @@
       Tim yang berkapasitas siap menyediakan layanan segala aspek mulai dari formulasi produk, desain kemasan, hingga proses produksi dan distribusi, sehingga Anda bisa fokus pada pemasaran dan pengembangan merek.
     </p>
   </section>
-  <script>
-  const menuToggle = document.querySelector('.menu-toggle');
-  const navContainer = document.querySelector('.nav-container');
-  menuToggle.addEventListener('click', () => {
-    navContainer.classList.toggle('active');
-  });
-</script>
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
 <script>
   $(document).ready(function(){
     $('.banner-slider').slick({
       autoplay: true,
-      autoplaySpeed: 3000,
+      autoplaySpeed: 2000,
       dots: true,
       arrows: true,
       infinite: true,
@@ -70,7 +64,7 @@
     $('.center').slick({
       centerMode: true,
       centerPadding: '60px',
-      slidesToShow: 3,
+      slidesToShow: 1,
       autoplay: true,
       autoplaySpeed: 2000,
       dots: false,
@@ -84,7 +78,7 @@
             arrows: false,
             centerMode: true,
             centerPadding: '40px',
-            slidesToShow: 3
+            slidesToShow: 1
           }
         },
         {

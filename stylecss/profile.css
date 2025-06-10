@@ -3,21 +3,29 @@ main {
     padding: 40px 20px;
 }
 
-.why-us {
+.about {
     text-align: center;
-    margin: 50px;
+    margin: 50px 0px;
 }
 
-.why-us h1 {
+.about img{
+    width: 500px;
+    height: auto;
+}
+
+.about h1 {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 10px;
+    text-align: center;
 }
 
-.why-us p {
+.about p {
     font-size: 16px;
     color: #666; 
     line-height: 1.6;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .feature {
@@ -51,49 +59,39 @@ main {
     margin-right: 150px;
 }
 
-/* Call-to-Action */
-.cta {
-    text-align: center;
-    padding: 40px 0px;
-}
-
-.cta p {
-    font-size: 16px;
-    color: #666;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-.cta-button {
-    background-color:#2e2e2e;
-    color: #fff;
-    border: none;
-    border-radius: 25px;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
-    background-color:#2f9eae;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
-    main {
-        padding: 40px 20px;
-    }
-    .why-us {
+main {
+    padding: 40px 20px;
+}
+
+.about {
     text-align: center;
-    margin: 0px 0px;
+    margin: 50px 0px;
+}
+
+.about img{
+    width: 100%;
+    height: auto;
+}
+
+.about h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 16px;
+    color: #666; 
+    line-height: 1.6;
     margin-bottom: 50px;
-    }
+}
+
     .feature {
         flex-direction: column;
         align-items: center;
-        justify-content: center; /* Center on mobile */
+        justify-content: center;
         margin: auto;
         padding: 0px 0px;  
     }

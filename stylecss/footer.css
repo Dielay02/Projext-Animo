@@ -1,7 +1,7 @@
 /* Footer */
 footer {
-    background-color: #fff;
-    color: #333;
+    background-color: #ffffff;
+    color: #fff;
     font-family: 'Switzer', sans-serif;
 }
 
@@ -10,58 +10,41 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    border-top: 5px solid #3CAFB3; /* Optional: Border for visual separation */
-}
-
-.footer-logo img {
-    width: 60px;
-    height: auto;
+    border-top: 5px solid #40848D;
 }
 
 .footer-links {
     display: flex;
-    gap: 40px;
+    gap: 20px;
 }
 
-.links-column {
-    text-align: left;
-}
-
-.links-column h4 {
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-.links-column ul {
-    list-style: none;
-    padding: 0;
-}
-
-.links-column li {
-    margin-bottom: 8px;
-}
-
-.links-column a {
-    color: #333;
+.footer-links a {
+    color: #000000;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.links-column a:hover {
-    color: #3CAFB3;
+.footer-links a:hover {
+    color: #40848D;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.Shopee img{
+    width: 80px;
+    height: auto;
 }
 
 /* Responsive Design for Mobile */
 @media (max-width: 768px) {
     .footer-container {
-        flex-direction: column;
         align-items: flex-start;
-        gap: 20px;
     }
 
     .footer-links {
-        flex-direction: column;
-        gap: 20px;
+        margin-bottom: 20px;
     }
 }
